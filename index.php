@@ -89,7 +89,7 @@
   </thead>
   <tbody>
     <?php
-      $result = $conn->query("SELECT * FROM tasks ORDER BY id DESC");
+      $result = $con->query("SELECT * FROM tasks ORDER BY id DESC");
       while ($row = $result->fetch_assoc()):
     ?>
     <tr>

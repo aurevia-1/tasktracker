@@ -1,8 +1,8 @@
 
 <?php
 
-$conn = mysqli_connect('localhost' , 'root' , '', 'team_tracker');
-if(!$conn){
+$con = mysqli_connect('localhost' , 'root' , '', 'team_tracker');
+if(!$con){
   echo'connection successfull';
 }
 

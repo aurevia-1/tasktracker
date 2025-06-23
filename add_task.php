@@ -20,6 +20,6 @@ if ($id) {
           VALUES ('$name', '$task', '$date', '$timeIn', '$timeOut', '$status')";
 }
 
-$conn->query($sql); 
+$con->query($sql); 
 header("Location: index.php");
 ?>
